@@ -74,16 +74,16 @@ const int sr1    = 23;  // stage right, poofer 1 (sr1)
 //};
 
 
-const int steps1 = 5;
-//                              12345
-PROGMEM prog_char p1sl1[]    = "11110"; 
-PROGMEM prog_char p1sl2[]    = "11110"; 
-PROGMEM prog_char p1sl3[]    = "11110"; 
-PROGMEM prog_char p1sl4[]    = "11110"; 
-PROGMEM prog_char p1sr4[]    = "11110"; 
-PROGMEM prog_char p1sr3[]    = "11110"; 
-PROGMEM prog_char p1sr2[]    = "11110"; 
-PROGMEM prog_char p1sr1[]    = "11110"; 
+const int steps1 = 10;
+//                              1234567890
+PROGMEM prog_char p1sl1[]    = "1111011110"; 
+PROGMEM prog_char p1sl2[]    = "1111011110"; 
+PROGMEM prog_char p1sl3[]    = "1111011110"; 
+PROGMEM prog_char p1sl4[]    = "1111011110"; 
+PROGMEM prog_char p1sr4[]    = "1111011110"; 
+PROGMEM prog_char p1sr3[]    = "1111011110"; 
+PROGMEM prog_char p1sr2[]    = "1111011110"; 
+PROGMEM prog_char p1sr1[]    = "1111011110"; 
 
 PROGMEM char *p1[] = {
   p1sl1,
